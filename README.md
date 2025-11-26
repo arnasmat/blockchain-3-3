@@ -13,6 +13,11 @@ tik ta, kuri gavai pries tai ir tada paemi jo value ir padaugini is BTC -> SAT r
 
 o outputus suskaiciuot daug lengviau buvo ir labai panasiai buvo daryta pavyzdyje
 
+fotkyte
+https://www.blockchain.com/explorer/transactions/btc/4410c8d14ff9f87ceeed1d65cb58e7c7b2422b2d7529afc675208ce2ce09ed7d
+<img width="962" height="75" alt="image" src="https://github.com/user-attachments/assets/2133ccf9-f3a4-496c-aade-c2acd77e4601" />
+
+
 ## Patikrinkite bloko hash'ą: Parašykite programą, kuri patikrina, ar bloko hash'as yra teisingai apskaičiuotas pagal bloko header'io informaciją.
 
 sitos uzduoties sunkumas buvo little endianness ir big endianness. duotame pavyzdyje visi inputai buvo LE, taciau `p.getblock()` grazina BE values. o pvz yra inputtinti LE kaip hex stringai. beieskant sprendimu python-bitcoinlib radau x() ir lx()
@@ -21,3 +26,8 @@ speju problema buvo tame, kad mano inputas yra neapibrezto ilgio int'as ir outpu
 zdz galiausiai chatgpt pasiule paprasta sprendima kaip castint
 
 be to,nzn ar teisingai supratau uzduoti - ar reikejo tsg patikrint ar blockchaine suskaicioutas, ar zmogus turetu ivest sita info pats? anyways, gan lengvai galima keisti, kad butu ir kitaip, nes under the hood pagrindine logika yra lengvai reusable funkcijoje.
+
+fotkyte
+<img width="858" height="102" alt="image" src="https://github.com/user-attachments/assets/214bae25-7355-4eee-9079-fd9822a3f99d" />
+
+https://www.blockchain.com/explorer/blocks/btc/593468
